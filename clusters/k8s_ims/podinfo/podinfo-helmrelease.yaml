@@ -7,6 +7,8 @@ metadata:
 spec:
   values:
     replicaCount: 4
+    ui:
+      color: "#C32148"
   chart:
     spec:
       chart: podinfo
