@@ -5,6 +5,8 @@ metadata:
   name: podinfo
   namespace: dev
 spec:
+  values:
+    replicaCount: 4
   chart:
     spec:
       chart: podinfo
